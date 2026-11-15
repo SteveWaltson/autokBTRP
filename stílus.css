@@ -87,5 +87,27 @@ footer{
 }
 
 @media screen and (max-width: 600px) {
-    
+    main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "h"
+        "n"
+        "a"
+        "as"
+        "f";
+    }
+    p{
+        font-size: 90%;
+        padding: 0px;
+    }
+    nav ul{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:20px;
+    padding: 5px;
+    }
+    header{
+        font-size: 20px;
+    }
 }
